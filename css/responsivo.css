@@ -1,0 +1,48 @@
+@media screen and (max-width: 1072px){
+        .lado01{
+            display: none;
+        }
+
+        .lado02{
+            text-align: center;
+            justify-items: left;
+            padding-left: 0px;
+            margin-right: 20px;
+            
+        }
+
+
+        .campoPesquisa {
+            display: none;
+        }
+
+        .logo {
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+
+}  
+
+@media screen and (max-width: 479px){
+
+    .lado02{
+        width: 50px;
+        
+        
+    }
+    input {
+        padding: auto;
+    }
+
+    .outro input {
+        padding-right: 10px;
+    }
+
+    .formulario .btn2 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+    
